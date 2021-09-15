@@ -183,7 +183,6 @@ rel_t = 100*(abs(rel_t))
 #finding the mean of relative error
 rel_m = np.mean(rel_error)
 
-'''
 #printing mean of rel error and rrmse for each iteration in a separate mean.csv file
 os.system("echo -n "+str(rel_m)+","+str(rrmse)+" >> mean.csv")
 
@@ -195,4 +194,4 @@ for i in range(len(rel_error)):
 	#printing them in the .csv files for error
 	os.system("echo -n "+str(rel_error[i])+","+" >> rel.csv")
 	os.system("echo -n "+str(rel_t[i])+","+" >> rel_true.csv")
-'''
+
