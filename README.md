@@ -6,7 +6,7 @@ This step can further be broken two smaller steps.
 For a double features, it would have pressure and temperature both.
   We would use the code prior.py to do it, and we can generate the prior in three way — a) Boundary-informed prior, b) Linear-spaced LHS, and c) Log-spaced LHS. For details please refer to the original paper. In the prior.py code, give the necessary conditions, this would pressure limits and temperature limits for the LHS-based priors, and the hand-picked pressure and temperature conditions for boundary informed prior.
   After giving the necesaary conditions, run the code in python and we have a .csv file called 'Prior_test.csv'
-(ii) Use build-prior-sh to submit the simulation to a remote computing system. At Notre Dame, the cluster is based on grid-engine. For other clusters, necassary changes need to be made. In the build-prior-sh, you need to input the number of sample point you want to generate (this should be equivalent to the number of points in 'Prior_test.csv'). 
+  (ii) Use build-prior-sh to submit the simulation to a remote computing system. At Notre Dame, the cluster is based on grid-engine. For other clusters, necassary changes need to be made. In the build-prior-sh, you need to input the number of sample point you want to generate (this should be equivalent to the number of points in 'Prior_test.csv').
 
 The second step involves conducting the simulation for generating the dataset and then performing data extraction.
 2. Conducting Active learning.
