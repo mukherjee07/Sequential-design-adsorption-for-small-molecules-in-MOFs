@@ -1,5 +1,5 @@
 # Sequential Design of Adsorption Simulations in Metal-Organic Frameworks![AL_workflow](https://user-images.githubusercontent.com/36941306/133353572-0bbcdaf5-3d7f-463a-9973-d8b935d89132.png)
-The process of building an AL model is divided into two steps
+The process of building an AL model is divided into two steps ---
 1. Generating a prior dataset. 
 This step can further be broken two smaller steps.
   (i) The first involves creating a prior input files, which would contain all the features. For a single feature, this file would have pressure.
